@@ -13,7 +13,7 @@ function App() {
   }
   const handelChange = (event) =>{
     //console.log(event.target.name,event.target.value);
-    setData({
+    setData ({
       ...data,
       [event.target.name]: event.target.type ==='checkbox'? event.target.check:event.target.value})
 
